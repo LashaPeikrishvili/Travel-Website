@@ -1,0 +1,55 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+header img {
+    width: 27px;
+    height: 27px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    padding-left: 10%;
+    font-size: 20px;
+    font-weight: semibold;
+    color: #4468E2;
+}
+
+header ul {
+    display: flex;
+    width: 598px;
+    justify-content: space-between;
+}
+
+header li {
+    font-size: 22px;
+    font-weight: Semibold;
+    color: #1C4961;
+    opacity: 75%;
+}
+
+header li:first-child {
+    opacity: 100%;
+}
+
+header button {
+    background-color: #4468E2;
+    border: 1px solid;
+    border-radius: 17px;
+    padding: 10px 30px;
+    font-size: 19px;
+    color: white;
+}
