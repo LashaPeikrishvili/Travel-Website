@@ -167,3 +167,74 @@ form button {
 .little p {
     font-size: 20px;
 }
+
+.sectionSecond {
+    width: 100%;
+    max-width: 1780px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionSecond h2 {
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+
+.sectionSecond ul {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 26px;
+    font-weight: semibold;
+    padding-bottom: 4%;
+}
+
+.firstPhotos {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.firstPhotos img {
+    width: 552px;
+}
+
+.firstPhotos h3 {
+    font-size: 38px;
+    font-weight: semobold;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.firstPhotos p {
+    width: 552px;
+    font-size: 26px;
+}
+
+.icons img {
+    width: 33px;
+    margin: 0 0.1%;
+}
+
+.icons {
+    display: flex;
+    width: 552px;
+}
+
+.price {
+    display: flex;
+
+}
+
+.bestPrice {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
