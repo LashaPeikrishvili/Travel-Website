@@ -137,3 +137,33 @@ form button {
     font-size: 21px;
     color: white;
 }
+
+.sectionFirstFooter {
+    width: 100%;
+    max-width: 1780px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+
+.little {
+    width: 275px;
+    height: 244px;
+}
+
+.little img {
+    height: 50px;
+    margin-bottom: 8%;
+    margin-left: 14%;
+}
+
+.little h3 {
+    font-size: 24px;
+    font-weight: semibold;
+    margin-bottom: 8%;
+}
+
+.little p {
+    font-size: 20px;
+}
