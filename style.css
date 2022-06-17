@@ -6,9 +6,11 @@
 header {
     display: flex;
     width: 100%;
+    max-width: 1780px;
     justify-content: space-between;
     padding: 20px 50px;
     align-items: center;
+    margin: 0 auto;
 }
 
 header img {
@@ -19,6 +21,7 @@ header img {
 .logo {
     display: flex;
     align-items: center;
+    margin-left: -40px;
 }
 
 .logo p {
@@ -51,5 +54,86 @@ header button {
     border-radius: 17px;
     padding: 10px 30px;
     font-size: 19px;
+    color: white;
+    margin-right: -40px;
+}
+
+.firstFloor {
+    background-image: url(./images/lalo-hernandez-Amo081zdJsI-unsplash.png);
+    width: 100%;
+    max-width: 1780px;
+    height: 608px;
+    display: flex;
+    position: relative;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 0 auto;
+}
+
+.color {
+    width: 100%;
+    max-width: 1780px;
+    height: 608px;
+    margin: 0 auto;
+    background-color: #000000;
+    z-index: 1;
+    opacity: 28%;
+    border-radius: 18px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.firstFloor p {
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 522px;
+    z-index: 2;
+}
+
+form {
+    width: 876px;
+    height: 89px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFF;
+    padding: 15px 35px;
+    border-radius: 10px;
+}
+
+form label {
+    font-size: 20px;
+}
+
+form input {
+    margin-top: 10px;
+    border: none;
+}
+
+form button {
+    background-color: #4468E2;
+    border: none;
+    border-radius: 10px;
+    width: 187px;
+    height: 63px;
+    font-size: 21px;
     color: white;
 }
