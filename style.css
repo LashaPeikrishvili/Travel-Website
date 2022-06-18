@@ -213,28 +213,41 @@ form button {
 }
 
 .firstPhotos p {
-    width: 552px;
+    /* width: 552px; */
     font-size: 26px;
 }
 
 .icons img {
     width: 33px;
-    margin: 0 0.1%;
+    margin: 0 5%;
 }
 
 .icons {
     display: flex;
-    width: 552px;
+    justify-content: space-between;
+    margin-top: 5%;
 }
 
-.price {
-    display: flex;
 
-}
 
 .bestPrice {
     width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+}
+
+.satesto {
+    width: 552px;
+}
+
+.mainIcons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstPhotosFooter {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
 }
