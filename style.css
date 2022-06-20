@@ -183,7 +183,7 @@ form button {
     max-width: 1780px;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-wrap: wrap;
 }
 
@@ -257,7 +257,7 @@ form button {
 
 .satesto {
     width: 552px;
-    margin-top: 4%;
+    margin-top: 50px;
 }
 
 .mainIcons {
@@ -292,12 +292,12 @@ form button {
 
 .mountains {
     position: relative;
+    width: 50%;
 }
 
 .mountains img {
-    /* position: relative; */
-    max-width: 965px;
-    max-height: 605px;
+
+    width: 100%;
 }
 
 .mountains p {
@@ -317,12 +317,17 @@ form button {
 .mainBlogs {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .twoPhotos {
     display: flex;
     flex-direction: column;
-    max-height: 587px;
+    width: 45%;
+}
+
+.twoPhotos img {
+    width: 100%;
 }
 
 .plane {
@@ -330,12 +335,12 @@ form button {
 }
 
 .plane p {
-    width: 463px;
+
     color: white;
     font-size: 35px;
     position: absolute;
     top: 50%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -483,5 +488,133 @@ footer li {
     header button {
         padding: 8px 25px;
         font-size: 17px;
+    }
+
+    .little {
+        width: 22%;
+
+    }
+
+    .sectionSecond ul {
+        font-size: 20px;
+    }
+
+    .firstPhotos img {
+        width: 318px;
+    }
+
+    .icons img {
+        width: 10px;
+        margin: 0 5%;
+    }
+
+    .firstPhotos h3 {
+        font-size: 22px;
+    }
+
+    .firstPhotos p {
+
+        font-size: 15px;
+    }
+
+    .firstPhotosFooter {
+        width: 313px;
+    }
+
+    .price {
+        margin-right: 43%;
+    }
+
+    .Blogs h2 {
+        font-size: 20px;
+    }
+
+    .mountains {
+        width: 50%;
+    }
+
+    .mountains img {
+
+        width: 100%;
+
+    }
+
+    .twoPhotos {
+        width: 45%;
+    }
+
+    .plane img {
+        width: 100%;
+    }
+
+    .plane p {
+        width: 220px;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .female img {
+        width: 100%;
+    }
+
+    .female p {
+        width: 220px;
+        font-size: 22px;
+    }
+
+    .customers h2 {
+        font-size: 20px;
+    }
+
+    .customers1 {
+        width: 600px;
+    }
+
+    .customers1 p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .imgSide img {
+        width: 33px;
+        height: 22px;
+    }
+
+    .singh img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .project h4 {
+        font-size: 15px;
+    }
+
+    .project p {
+        font-size: 15px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer ul {
+        width: 350px;
+    }
+
+    footer li {
+        font-size: 14px;
+    }
+
+    .footerIcon img {
+        width: 22px;
+        height: 22px;
     }
 }
