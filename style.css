@@ -12,6 +12,7 @@ header {
     padding: 20px 50px;
     align-items: center;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 header img {
@@ -22,7 +23,7 @@ header img {
 .logo {
     display: flex;
     align-items: center;
-    margin-left: -40px;
+    margin-left: -2.5%;
 }
 
 .logo p {
@@ -56,7 +57,7 @@ header button {
     padding: 10px 30px;
     font-size: 19px;
     color: white;
-    margin-right: -40px;
+    margin-right: -2.5%;
 }
 
 .firstFloor {
@@ -69,6 +70,7 @@ header button {
     /* justify-content: center;
     align-items: center; */
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .marginLabel {
@@ -152,6 +154,7 @@ form button {
     display: flex;
     justify-content: space-between;
     margin-top: 7%;
+    flex-wrap: wrap;
 }
 
 .little {
@@ -266,6 +269,7 @@ form button {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .Blogs {
@@ -292,8 +296,8 @@ form button {
 
 .mountains img {
     /* position: relative; */
-    width: 965px;
-    height: 605px;
+    max-width: 965px;
+    max-height: 605px;
 }
 
 .mountains p {
@@ -459,4 +463,25 @@ footer li {
 .footerIcon img {
     width: 44px;
     height: 44px;
+}
+
+@media(max-width: 1024px) {
+    header {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header img {
+        width: 24px;
+        height: 24px;
+    }
+
+    header li {
+        font-size: 18px;
+    }
+
+    header button {
+        padding: 8px 25px;
+        font-size: 17px;
+    }
 }
