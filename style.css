@@ -1,6 +1,7 @@
 .container {
     max-width: 1920px;
     width: 100%;
+    margin: 0 auto;
 }
 
 header {
@@ -344,4 +345,56 @@ form button {
 
 .femaleTravelers {
     padding-left: 20%;
+}
+
+.customers {
+    width: 100%;
+    max-width: 1780px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customers h2 {
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+.customers1 {
+    width: 805px;
+}
+
+.customers1 p {
+    width: 100%;
+    font-size: 26px;
+}
+
+.singh {
+    display: flex;
+    margin-top: 2%;
+}
+
+.project h4 {
+    font-size: 28px;
+    padding-left: 3%;
+}
+
+.project p {
+    font-size: 28px;
+    color: #848484;
+    padding-left: 3%;
+    width: 310px;
+}
+
+.customersContent {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
