@@ -71,6 +71,12 @@ header button {
     margin: 0 auto;
 }
 
+.marginLabel {
+    border-right: 2px solid #B4C6EE;
+    padding-right: 2%;
+    height: 100%;
+}
+
 .color {
     width: 100%;
     max-width: 1780px;
@@ -350,7 +356,7 @@ form button {
 .customers {
     width: 100%;
     max-width: 1780px;
-    margin: 0 auto;
+    margin: 5% auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -375,20 +381,34 @@ form button {
     font-size: 26px;
 }
 
+.imgSide {
+    display: flex;
+}
+
+.imgSide img {
+    width: 53px;
+    height: 42px;
+}
+
+.imgSide p {
+    padding-left: 2%;
+}
+
 .singh {
     display: flex;
     margin-top: 2%;
+    padding-left: 9%;
 }
 
 .project h4 {
     font-size: 28px;
-    padding-left: 3%;
+    padding-left: 5%;
 }
 
 .project p {
     font-size: 28px;
     color: #848484;
-    padding-left: 3%;
+    padding-left: 5%;
     width: 310px;
 }
 
@@ -397,4 +417,42 @@ form button {
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+footer {
+    width: 100%;
+    max-width: 1780px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #E1E8F8;
+    height: 178px;
+    align-items: center;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+footer ul {
+    display: flex;
+    width: 598px;
+    justify-content: space-between;
+}
+
+footer li {
+    font-size: 22px;
+    font-weight: Semibold;
+}
+
+.footerIcon {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerIcon img {
+    width: 44px;
+    height: 44px;
 }
