@@ -763,6 +763,10 @@ footer li {
         margin: 0 auto;
     }
 
+    .little {
+        width: 100%;
+    }
+
     .firstFloor {
         background-image: url(./images/lalo-hernandez-Amo081zdJsI-unsplash.png);
         max-width: 480px;
