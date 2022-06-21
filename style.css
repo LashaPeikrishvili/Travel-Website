@@ -822,4 +822,14 @@ footer li {
         padding-top: 50px;
         padding-bottom: 100px;
     }
+
+    .customers {
+        max-width: 480px;
+        width: 100%;
+    }
+
+    .customers1 {
+        max-width: 480px;
+        width: 100%;
+    }
 }
