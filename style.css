@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .container {
     max-width: 1920px;
     width: 100%;
@@ -203,11 +207,12 @@ form button {
     max-width: 1200px;
     width: 100%;
     justify-content: space-between;
-    margin-left: 50%;
+    margin-left: 30%;
     font-size: 26px;
     font-weight: semibold;
     border-bottom: 2px solid grey;
     margin-right: 100px;
+    display: none;
 }
 
 .sectionSecond li:hover {
@@ -438,7 +443,7 @@ form button {
 
 footer {
     width: 100%;
-    max-width: 1780px;
+    max-width: 1770px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -449,7 +454,7 @@ footer {
 }
 
 footer p {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 footer ul {
