@@ -826,10 +826,12 @@ footer li {
     .customers {
         max-width: 480px;
         width: 100%;
+        margin: 0 auto;
     }
 
     .customers1 {
         max-width: 480px;
         width: 100%;
+        margin: 0 auto;
     }
 }
