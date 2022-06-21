@@ -728,3 +728,70 @@ footer li {
         height: 22px;
     }
 }
+
+@media(max-width: 480px) {
+    .container {
+        max-width: 480px;
+        width: 100%;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .firstFloor {
+        background-image: url(./images/lalo-hernandez-Amo081zdJsI-unsplash.png);
+        width: 100%;
+        max-width: 480px;
+        width: 100%;
+        /* height: 608px; */
+        display: flex;
+        position: relative;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .firstFloor h1 {
+        font-size: 30px;
+    }
+
+    .firstFloor p {
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .firstFloor button {
+        display: none;
+    }
+
+    .firstFloor form {
+        display: none;
+    }
+
+    .sectionSecond {
+        max-width: 480px;
+        width: 100%;
+    }
+
+    .sectionSecond h2 {
+        font-size: 25px;
+    }
+
+    .sectionSecond ul {
+        display: none;
+    }
+
+    .mountains p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .imgSide p {
+        max-width: 350px;
+    }
+}
