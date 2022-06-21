@@ -204,7 +204,7 @@ form button {
 
 .sectionSecond ul {
     display: flex;
-    max-width: 1200px;
+    max-width: 900px;
     width: 100%;
     justify-content: space-between;
     margin-left: 30%;
@@ -212,7 +212,7 @@ form button {
     font-weight: semibold;
     border-bottom: 2px solid grey;
     margin-right: 100px;
-    display: none;
+    /* display: none; */
 }
 
 .sectionSecond li:hover {
@@ -477,6 +477,20 @@ footer li {
 .footerIcon img {
     width: 44px;
     height: 44px;
+}
+
+.logo img {
+    animation: spin 2s infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 @media(max-width: 1024px) {
@@ -751,7 +765,6 @@ footer li {
 
     .firstFloor {
         background-image: url(./images/lalo-hernandez-Amo081zdJsI-unsplash.png);
-        width: 100%;
         max-width: 480px;
         width: 100%;
         /* height: 608px; */
@@ -798,5 +811,15 @@ footer li {
 
     .imgSide p {
         max-width: 350px;
+    }
+
+    .sectionFirstFooter {
+        max-width: 480px;
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-bottom: 100px;
     }
 }
